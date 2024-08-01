@@ -13,7 +13,7 @@ document.getElementById('loginForm').addEventListener('submit', async function(e
     });
     const result = await response.json();
     if (response.ok) {
-        window.location.href = 'https://ashish123897.github.io/Portfolio/'; // Redirect to the given URL
+        window.location.href = 'https://www.linkedin.com/in/ashish-dixit-779b08297'; // Redirect to the given URL
     } else {
         alert(result.message); // Login failed
     }
