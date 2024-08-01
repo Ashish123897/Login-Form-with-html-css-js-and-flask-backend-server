@@ -1,20 +1,20 @@
-body {
+body 
+{
     font-family: 'Trebuchet MS', sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100vh;
     margin: 0;
-    background:url('https://expertphotography.b-cdn.net/wp-content/uploads/2018/07/nature-photography-flower.jpg');
+    background:url('https://i.pinimg.com/originals/07/d5/13/07d5135343cd83d858ccb80cf45e0729.jpg');
     background-size: cover;
 }
-
 .container 
 {
     background:transparent;
     padding: 2rem;
     border-radius: 10px;
-    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 8px 20px whitesmoke;
     max-width: 400px;
     width: 100%;
     animation: fadeIn 1s ease-in-out;
@@ -23,22 +23,23 @@ body {
 {
     text-align: center;
     margin-bottom: 1.5rem;
-    color: #333;
+    color:white;
     font-weight: 700;
 }
 
-.form-group {
+.form-group 
+{
     margin-bottom: 1.5rem;
 }
-
-.form-group label {
+.form-group label 
+{
     display: block;
     margin-bottom: 0.5rem;
-    color: #666;
+    color: white;
     font-weight: 600;
 }
-
-.form-group input {
+.form-group input 
+{
     width: 100%;
     padding: 0.75rem;
     border: 1px solid #ddd;
@@ -46,14 +47,14 @@ body {
     font-size: 1rem;
     transition: border-color 0.3s, box-shadow 0.3s;
 }
-
-.form-group input:focus {
+.form-group input:focus 
+{
     border-color: #2980b9;
     box-shadow: 0 0 5px rgba(41, 128, 185, 0.5);
     outline: none;
 }
-
-.btn {
+.btn
+{
     width: 100%;
     padding: 0.75rem;
     border: none;
@@ -64,23 +65,28 @@ body {
     cursor: pointer;
     transition: background-color 0.3s, transform 0.3s;
 }
-
-.btn:hover {
+.btn:hover 
+{
     background-color: #1a5e8d;
     transform: translateY(-2px);
 }
 
-.footer {
+.footer 
+{
     text-align: center;
     margin-top: 1.5rem;
 }
-
-.footer a {
+.footer p
+{
+    color:white;
+}
+.footer a 
+{
     color: #2980b9;
     text-decoration: none;
     transition: color 0.3s;
 }
-
-.footer a:hover {
+.footer a:hover 
+{
     color: #1a5e8d;
 }
